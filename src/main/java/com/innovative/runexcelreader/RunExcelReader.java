@@ -1,6 +1,6 @@
 package com.innovative.runexcelreader;
-
 import com.innovative.excelfilereader.ApachePOIExcelReader;
+
 
 public class RunExcelReader {
     public static void runExcelReader(String[] args){
@@ -22,7 +22,6 @@ public class RunExcelReader {
                     //HelperMethods.printUsage();
                     FILE_NAME = args[1];
                     ApachePOIExcelReader.printMetadata(FILE_NAME);
-                    //ApachePOIExcelReader.printMetadata(FILE_NAME);
                     break;
                 }
                 case 3:
